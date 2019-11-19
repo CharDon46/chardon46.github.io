@@ -1,3 +1,7 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
 
 .menu-hover-lines {
     text-align: center;
@@ -21,7 +25,7 @@
   .menu-hover-lines li.active > a {
     background-color: transparent;
   }
-  
+   
   .menu-hover-lines a:before,
   .menu-hover-lines a::after {
     height: 3px;
