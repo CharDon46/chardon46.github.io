@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='nav.css')}}">
+    </head>
+    <div class="container">
+        <ul class="menu menu-hover-lines">
+            <li class="active"><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+            <li><a href="{{ url_for('blog') }}">Blog</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        {%block content%}
+        {%endblock%}
+    </div>
+</body>
+</html>
