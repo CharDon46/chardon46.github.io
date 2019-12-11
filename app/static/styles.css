@@ -15,7 +15,6 @@
     background: url("images/IMG_4050.JPG") center center no-repeat;
     background-size: cover;
   }
-  
   .hero-full-screen .middle-content-section {
     text-align: center;
     color: #fefefe;
@@ -30,7 +29,7 @@
   }
   
   .hero-full-screen .bottom-content-section svg {
-    height: 3.75rem;
+    height: 3.75rem; 
     width: 3.75rem;
     fill: #fefefe;
   }

@@ -1,5 +1,10 @@
 <head>
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles.css')}}">
+    {% if title %}
+        <title>{{ title }} - Personal Website</title>
+        {% else %}
+        <title>Charlie's Website!</title>
+    {% endif %}
 </head>
   
   <div class="hero-full-screen">
