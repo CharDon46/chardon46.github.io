@@ -1,2 +1,2 @@
-# Flask-Website
-Personal Website developed with Flask
+# Personal Website
+Personal Website hosted on Github pages.
